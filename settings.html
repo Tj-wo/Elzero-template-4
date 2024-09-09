@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings</title>
+  <link rel="stylesheet" href="css/frame-work.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="side-bar">
+      <div class="container">
+        <h3 class="logo">
+          Elzero
+        </h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-regular fa-chart-bar"></i>
+              <span>
+                Dashboard
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html"  class="active">
+              <i class="fa-solid fa-gear"></i>
+              <span>
+                Settings
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-regular fa-user"></i>
+              <span>
+                Profile
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>
+                Projects
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>
+                Courses
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-regular fa-circle-user"></i>
+              <span>
+                Friends
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-regular fa-file"></i>
+              <span>
+                Files
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-regular fa-credit-card"></i>
+              <span>
+                Plans
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="page">
+      <header>
+        <div class="search">
+          <input type="search" placeholder="Type A Keyword">
+        </div>
+        <i class="fa-regular fa-bell fa-lg"></i>
+        <img src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/avatar.png" alt="">
+      </header>
+      <div class="settings">
+        <h1>
+          Settings
+        </h1>
+        <div class="container">
+          <div class="set one">
+            <h2>
+              Site Control
+            </h2>
+            <p>
+              Control The Website If There Is Maintenance
+            </p>
+            <div class="content">
+              <div class="info">
+                <div class="know">
+                  <span>
+                    Website Control
+                  </span>
+                  <p>
+                    Open/Close Website And Type The Reason
+                  </p>
+                </div>
+                <input type="checkbox" class="toggle" checked>
+              </div>
+              <textarea placeholder="Close Message Content"></textarea>
+            </div>
+          </div>
+          <div class="set two">
+            <h2>
+              General Info
+            </h2>
+            <p>
+              General Information About Your Account
+            </p>
+            <form class="content">
+              <label>
+                <span>First Name</span>
+                <input type="text" placeholder="First Name">
+              </label>
+              <label>
+                <span>Last Name</span>
+                <input type="text" placeholder="Last Name">
+              </label>
+              <label for="">
+                <span>Email</span>
+                <input type="email" value="o@nn.sa" disabled readonly>
+                <input type="submit" value="Change">
+              </label>
+            </form>
+          </div>
+          <div class="set three">
+            <h2>
+              Security Info
+            </h2>
+            <p>
+              Security Information About Your Account
+            </p>
+            <div class="content">
+              <div class="card">
+                <div class="info">
+                  <span>
+                    Password
+                  </span>
+                  <p>
+                    Last Change On 25/10/2021
+                  </p>
+                </div>
+                <a href="" class="button">
+                  Change
+                </a>
+              </div>
+              <div class="card">
+                <div class="info">
+                  <span>
+                    Two-Factor Authentication
+                  </span>
+                  <p>
+                    Enable/Disable The Feature
+                  </p>
+                </div>
+                <input type="checkbox" class="toggle">
+              </div>
+              <div class="card">
+                <div class="info">
+                  <span>Devices</span>
+                  <p>
+                    Check The Login Devices List
+                  </p>
+                </div>
+                <a href="">
+                  Devices
+                </a>
+              </div>
+            </div>
+            <div class="content"></div>
+          </div>
+          <div class="set four">
+            <h2>
+              Social Info
+            </h2>
+            <p>
+              Social Media Information
+            </p>
+            <div class="content">
+              <div class="line">
+                <i class="fa-brands fa-twitter fa-fw"></i>
+                <input type="text" placeholder="Twitter Username">
+              </div>
+              <div class="line">
+                <i class="fa-brands fa-facebook-f fa-fw"></i>
+                <input type="text" placeholder="Facebook Username">
+              </div>
+              <div class="line">
+                <i class="fa-brands fa-linkedin fa-fw"></i>
+                <input type="text" placeholder="Linkedin Username">
+              </div>
+              <div class="line">
+                <i class="fa-brands fa-youtube fa-fw"></i>
+                <input type="text" placeholder="Youtube Username">
+              </div>
+            </div>
+          </div>
+          <div class="set five">
+            <h2>
+              Widgets Control
+            </h2>
+            <p>
+              Show/Hide Widgets on Dashboard
+            </p>
+            <form class="content">
+              <label>
+                <input type="checkbox" checked>
+                Quick Draft
+              </label>
+              <label>
+                <input type="checkbox" checked>
+                Yearly Targets
+              </label>
+              <label>
+                <input type="checkbox" checked>
+                Tickets Statistics
+              </label>
+              <label>
+                <input type="checkbox" checked>
+                Latest News
+              </label>
+              <label>
+                <input type="checkbox">
+                Latest Tasks
+              </label>
+              <label>
+                <input type="checkbox" checked>
+                Top Search Items
+              </label>
+            </form>
+          </div>
+          <div class="set six">
+            <h2>
+              Backup Manager
+            </h2>
+            <p>
+              Control Backup Time And Location
+            </p>
+            <form class="content">
+              <div class="radio1" name="radio1">
+                <label>
+                  <input type="radio" name="radio1" checked>
+                  Daily
+                </label>
+                <label>
+                  <input type="radio" name="radio1">
+                  Weekly
+                </label>
+                <label>
+                  <input type="radio" name="radio1">
+                  Monthly
+                </label>
+              </div>
+              <div class="radio2" name="radio2">
+                <label>
+                  <input type="radio" name="radio2">
+                  <i class="fa-solid fa-server"></i>
+                  <span>Megaman</span>
+                </label>
+                <label>
+                  <input type="radio" name="radio2" checked>
+                  <i class="fa-solid fa-server"></i>
+                  <span>Zero</span>
+                </label>
+                <label>
+                  <input type="radio" name="radio2">
+                  <i class="fa-solid fa-server"></i>
+                  <span>Sigma</span>
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
